@@ -1,0 +1,51 @@
+---
+title: "Codebook"
+author: "Mathilde"
+date: "24/3/2022"
+output: word_document
+---
+
+#Variables in the dataset
+```{r}
+
+# x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files in the zip-file from the assignment.
+
+# x_data, y_data and subject_data merge the previous datasets to further analysis.
+
+# features contains the correct names for the x_data dataset, which are applied to the column names stored in
+
+```
+
+ 
+# Attribute Information:
+
+```{r}
+
+#For each record in the dataset it is provided:
+#- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+#- Triaxial Angular velocity from the gyroscope.
+#- A 561-feature vector with time and frequency domain variables.
+#- Its activity label.
+#- An identifier of the subject who carried out the experiment.
+
+
+```
+
+
+#The R scipt
+```{r}
+# These 5 assigments are made in the R scipt:
+
+# 1. Merges the training and the test sets to create one data set.
+
+# 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+
+# 3. Uses descriptive activity names to name the activities in the data set
+
+# 4.Appropriately labels the data set with descriptive variable names. 
+
+# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+```
+
